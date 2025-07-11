@@ -1,0 +1,37 @@
+.app {
+  max-width: 600px;
+  margin: 30px 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 300px; /* Fixed height */
+  overflow-y: auto; /* Allow vertical scrolling if content exceeds height */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Optional: Styling for scrollbar to match the design */
+.app::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.app::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Scrollbar thumb color */
+  border-radius: 10px;
+}
+
+.app::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Poppins', 'Sans serif';
+}

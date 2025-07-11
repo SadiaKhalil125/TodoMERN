@@ -1,0 +1,12 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .no-todos {
+    font-size: 18px;
+    color: #888;
+    font-style: italic;
+  }
+  
